@@ -1,4 +1,4 @@
-The system is: Darwin - 15.2.0 - x86_64
+The system is: Windows - 6.1 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
 Build flags: 
@@ -6,39 +6,44 @@ Id flags:
 
 The output was:
 0
-=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Check dependencies
+Build started 27/11/2015 17:12:10.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CMakeCCompilerId.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
-
-Ld CompilerIdC normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC
-
-PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC
-    /bin/sh -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
+Time Elapsed 00:00:05.06
 
 
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is AppleClang, found in "/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdC/CompilerIdC"
+The C compiler identification is MSVC, found in "C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/3.3.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -47,639 +52,292 @@ Id flags:
 
 The output was:
 0
-=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Check dependencies
+Build started 27/11/2015 17:12:16.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
-Write auxiliary files
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
-
-Ld CompilerIdCXX normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX
-
-PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX
-    /bin/sh -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
+Time Elapsed 00:00:01.99
 
 
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is AppleClang, found in "/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/3.4.0-rc1/CompilerIdCXX/CompilerIdCXX"
+The CXX compiler identification is MSVC, found in "C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/3.3.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b27ca" "-configuration" "Debug"
-=== BUILD TARGET cmTC_b27ca OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/cmTC_b27ca.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/testCCompiler.o
-
-Ld Debug/cmTC_b27ca normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/cmTC_b27ca.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b27ca.build/Objects-normal/x86_64/cmTC_b27ca_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_b27ca
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5815c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 27/11/2015 17:12:19.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_5815c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5815c.dir\Debug\".
+  Creating directory "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5815c.dir\Debug\cmTC_5815c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5815c.dir\Debug\cmTC_5815c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5815c.dir\Debug\\" /Fd"cmTC_5815c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5815c.dir\Debug\\" /Fd"cmTC_5815c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_5815c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_5815c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_5815c.lib" /MACHINE:X64  /machine:x64 /debug cmTC_5815c.dir\Debug\testCCompiler.obj
+  cmTC_5815c.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_5815c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5815c.dir\Debug\cmTC_5815c.tlog\unsuccessfulbuild".
+  Touching "cmTC_5815c.dir\Debug\cmTC_5815c.tlog\cmTC_5815c.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_5815c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.07
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_fd98e" "-configuration" "Debug"
-=== BUILD TARGET cmTC_fd98e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.o
-
-Ld Debug/cmTC_fd98e normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e
-Apple LLVM version 7.0.0 (clang-700.1.76)
-Target: x86_64-apple-darwin15.2.0
-Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-253.6
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
-Framework search paths:
-	/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_fd98e" "-configuration" "Debug"]
-  ignore line: [=== BUILD TARGET cmTC_fd98e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTC_fd98e normal x86_64]
-  ignore line: [    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e]
-  ignore line: [Apple LLVM version 7.0.0 (clang-700.1.76)]
-  ignore line: [Target: x86_64-apple-darwin15.2.0]
-  ignore line: [Thread model: posix]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.11.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
-    arg [-o] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_fd98e] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e.LinkFileList] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd98e.build/Objects-normal/x86_64/cmTC_fd98e_dependency_info.dat] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  Framework search paths: [;/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  collapse framework dir [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
-  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a2bec.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 27/11/2015 17:12:22.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_a2bec.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a2bec.dir\Debug\".
+  Creating directory "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a2bec.dir\Debug\cmTC_a2bec.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a2bec.dir\Debug\cmTC_a2bec.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a2bec.dir\Debug\\" /Fd"cmTC_a2bec.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a2bec.dir\Debug\\" /Fd"cmTC_a2bec.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_a2bec.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_a2bec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_a2bec.lib" /MACHINE:X64  /machine:x64 /debug cmTC_a2bec.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_a2bec.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_a2bec.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a2bec.dir\Debug\cmTC_a2bec.tlog\unsuccessfulbuild".
+  Touching "cmTC_a2bec.dir\Debug\cmTC_a2bec.tlog\cmTC_a2bec.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_a2bec.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_acb47" "-configuration" "Debug"
-=== BUILD TARGET cmTC_acb47 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/cmTC_acb47.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_acb47 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/cmTC_acb47.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_acb47.build/Objects-normal/x86_64/cmTC_acb47_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_acb47
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_24ed5" "-configuration" "Debug"
-=== BUILD TARGET cmTC_24ed5 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/cmTC_24ed5.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_24ed5 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/cmTC_24ed5.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_24ed5.build/Objects-normal/x86_64/cmTC_24ed5_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_24ed5
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ad928" "-configuration" "Debug"
-=== BUILD TARGET cmTC_ad928 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/cmTC_ad928.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.c -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_ad928 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/cmTC_ad928.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ad928.build/Objects-normal/x86_64/cmTC_ad928_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_ad928
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9b3f2" "-configuration" "Debug"
-=== BUILD TARGET cmTC_9b3f2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/cmTC_9b3f2.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/testCXXCompiler.o
-
-Ld Debug/cmTC_9b3f2 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/cmTC_9b3f2.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9b3f2.build/Objects-normal/x86_64/cmTC_9b3f2_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9b3f2
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_90281.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 27/11/2015 17:12:24.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_90281.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_90281.dir\Debug\".
+  Creating directory "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_90281.dir\Debug\cmTC_90281.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_90281.dir\Debug\cmTC_90281.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_90281.dir\Debug\\" /Fd"cmTC_90281.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_90281.dir\Debug\\" /Fd"cmTC_90281.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_90281.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_90281.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_90281.lib" /MACHINE:X64  /machine:x64 /debug cmTC_90281.dir\Debug\testCXXCompiler.obj
+  cmTC_90281.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_90281.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_90281.dir\Debug\cmTC_90281.tlog\unsuccessfulbuild".
+  Touching "cmTC_90281.dir\Debug\cmTC_90281.tlog\cmTC_90281.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_90281.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9c441" "-configuration" "Debug"
-=== BUILD TARGET cmTC_9c441 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
-
-Ld Debug/cmTC_9c441 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441
-Apple LLVM version 7.0.0 (clang-700.1.76)
-Target: x86_64-apple-darwin15.2.0
-Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441 -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-253.6
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
-Framework search paths:
-	/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9c441" "-configuration" "Debug"]
-  ignore line: [=== BUILD TARGET cmTC_9c441 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTC_9c441 normal x86_64]
-  ignore line: [    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441]
-  ignore line: [Apple LLVM version 7.0.0 (clang-700.1.76)]
-  ignore line: [Target: x86_64-apple-darwin15.2.0]
-  ignore line: [Thread model: posix]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441 -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441 -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441 -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.11.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
-    arg [-o] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c441] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441.LinkFileList] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9c441.build/Objects-normal/x86_64/cmTC_9c441_dependency_info.dat] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  Framework search paths: [;/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  collapse framework dir [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
-  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4653b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 27/11/2015 17:12:26.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_4653b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4653b.dir\Debug\".
+  Creating directory "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4653b.dir\Debug\cmTC_4653b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4653b.dir\Debug\cmTC_4653b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4653b.dir\Debug\\" /Fd"cmTC_4653b.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4653b.dir\Debug\\" /Fd"cmTC_4653b.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_4653b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_4653b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_4653b.lib" /MACHINE:X64  /machine:x64 /debug cmTC_4653b.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_4653b.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_4653b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4653b.dir\Debug\cmTC_4653b.tlog\unsuccessfulbuild".
+  Touching "cmTC_4653b.dir\Debug\cmTC_4653b.tlog\cmTC_4653b.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_4653b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
 
 
 
 
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9db89" "-configuration" "Debug"
-=== BUILD TARGET cmTC_9db89 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4ed3d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 27/11/2015 17:12:29.
+Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_4ed3d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4ed3d.dir\Debug\".
+  Creating directory "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4ed3d.dir\Debug\cmTC_4ed3d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4ed3d.dir\Debug\cmTC_4ed3d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4ed3d.dir\Debug\\" /Fd"cmTC_4ed3d.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4ed3d.dir\Debug\\" /Fd"cmTC_4ed3d.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_4ed3d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_4ed3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Michael/Documents/GitHub/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_4ed3d.lib" /MACHINE:X64  /machine:x64 /debug cmTC_4ed3d.dir\Debug\feature_tests.obj
+  cmTC_4ed3d.vcxproj -> C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\Debug\cmTC_4ed3d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4ed3d.dir\Debug\cmTC_4ed3d.tlog\unsuccessfulbuild".
+  Touching "cmTC_4ed3d.dir\Debug\cmTC_4ed3d.tlog\cmTC_4ed3d.lastbuildstate".
+Done Building Project "C:\Users\Michael\Documents\GitHub\GP2CourseWork\build\CMakeFiles\CMakeTmp\cmTC_4ed3d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
 
-Check dependencies
 
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/cmTC_9db89.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_9db89 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/cmTC_9db89.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9db89.build/Objects-normal/x86_64/cmTC_9db89_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_9db89
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_61733" "-configuration" "Debug"
-=== BUILD TARGET cmTC_61733 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/cmTC_61733.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_61733 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/cmTC_61733.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61733.build/Objects-normal/x86_64/cmTC_61733_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_61733
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5d613" "-configuration" "Debug"
-=== BUILD TARGET cmTC_5d613 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64
-write-file /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/cmTC_5d613.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/feature_tests.o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/DerivedSources/x86_64 -I/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/feature_tests.dia -c /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/feature_tests.cxx -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_5d613 normal x86_64
-    cd /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -F/Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/cmTC_5d613.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d613.build/Objects-normal/x86_64/cmTC_5d613_dependency_info.dat -o /Users/jamesglasgow/Documents/GP2CourseWork/build/CMakeFiles/CMakeTmp/Debug/cmTC_5d613
-
-** BUILD SUCCEEDED **
-
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
     Feature record: CXX_FEATURE:0cxx_alignas
     Feature record: CXX_FEATURE:0cxx_alignof
     Feature record: CXX_FEATURE:0cxx_attributes
     Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_auto_type
     Feature record: CXX_FEATURE:0cxx_binary_literals
     Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
     Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
     Feature record: CXX_FEATURE:0cxx_deleted_functions
     Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
     Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
     Feature record: CXX_FEATURE:0cxx_generic_lambdas
     Feature record: CXX_FEATURE:0cxx_inheriting_constructors
     Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambdas
     Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
     Feature record: CXX_FEATURE:0cxx_noexcept
     Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
     Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
     Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:0cxx_unrestricted_unions
     Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
